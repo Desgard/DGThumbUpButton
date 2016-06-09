@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D54C93F51D094C620015B780 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D54C93F41D094C620015B780 /* main.m */; };
+		D54C93F81D094C620015B780 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D54C93F71D094C620015B780 /* AppDelegate.m */; };
+		D54C93FB1D094C620015B780 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D54C93FA1D094C620015B780 /* ViewController.m */; };
+		D54C93FE1D094C620015B780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54C93FC1D094C620015B780 /* Main.storyboard */; };
+		D54C94001D094C620015B780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54C93FF1D094C620015B780 /* Assets.xcassets */; };
+		D54C94031D094C620015B780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54C94011D094C620015B780 /* LaunchScreen.storyboard */; };
+		D54C940F1D094CE50015B780 /* DGThumbUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D54C940E1D094CE50015B780 /* DGThumbUpButton.m */; };
+		D54C94121D0973AA0015B780 /* DGExplodeAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D54C94111D0973AA0015B780 /* DGExplodeAnimationView.m */; };
+		D54C942F1D0982F50015B780 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D54C94151D0982F50015B780 /* Info.plist */; };
+		D54C94301D0982F50015B780 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D54C94171D0982F50015B780 /* MASCompositeConstraint.m */; };
+		D54C94311D0982F50015B780 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D54C941A1D0982F50015B780 /* MASConstraint.m */; };
+		D54C94321D0982F50015B780 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D54C941C1D0982F50015B780 /* MASConstraintMaker.m */; };
+		D54C94331D0982F50015B780 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D54C941E1D0982F50015B780 /* MASLayoutConstraint.m */; };
+		D54C94341D0982F50015B780 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D54C94221D0982F50015B780 /* MASViewAttribute.m */; };
+		D54C94351D0982F50015B780 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D54C94241D0982F50015B780 /* MASViewConstraint.m */; };
+		D54C94361D0982F50015B780 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D54C94261D0982F50015B780 /* NSArray+MASAdditions.m */; };
+		D54C94371D0982F50015B780 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D54C94291D0982F50015B780 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		D54C94381D0982F50015B780 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D54C942B1D0982F50015B780 /* View+MASAdditions.m */; };
+		D54C94391D0982F50015B780 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D54C942E1D0982F50015B780 /* ViewController+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D58C7D181D0A2C750032673C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D54C93E81D094C620015B780 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D54C93EF1D094C620015B780;
+			remoteInfo = DGThumbUpButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D54C93F01D094C620015B780 /* DGThumbUpButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DGThumbUpButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54C93F41D094C620015B780 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D54C93F61D094C620015B780 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D54C93F71D094C620015B780 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D54C93F91D094C620015B780 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D54C93FA1D094C620015B780 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D54C93FD1D094C620015B780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D54C93FF1D094C620015B780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D54C94021D094C620015B780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D54C94041D094C620015B780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54C940D1D094CE50015B780 /* DGThumbUpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGThumbUpButton.h; sourceTree = "<group>"; };
+		D54C940E1D094CE50015B780 /* DGThumbUpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGThumbUpButton.m; sourceTree = "<group>"; };
+		D54C94101D0973AA0015B780 /* DGExplodeAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGExplodeAnimationView.h; sourceTree = "<group>"; };
+		D54C94111D0973AA0015B780 /* DGExplodeAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGExplodeAnimationView.m; sourceTree = "<group>"; };
+		D54C94151D0982F50015B780 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54C94161D0982F50015B780 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		D54C94171D0982F50015B780 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		D54C94181D0982F50015B780 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D54C94191D0982F50015B780 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		D54C941A1D0982F50015B780 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		D54C941B1D0982F50015B780 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		D54C941C1D0982F50015B780 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		D54C941D1D0982F50015B780 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		D54C941E1D0982F50015B780 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		D54C941F1D0982F50015B780 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		D54C94201D0982F50015B780 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		D54C94211D0982F50015B780 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		D54C94221D0982F50015B780 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		D54C94231D0982F50015B780 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		D54C94241D0982F50015B780 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		D54C94251D0982F50015B780 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		D54C94261D0982F50015B780 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		D54C94271D0982F50015B780 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D54C94281D0982F50015B780 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		D54C94291D0982F50015B780 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		D54C942A1D0982F50015B780 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		D54C942B1D0982F50015B780 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		D54C942C1D0982F50015B780 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D54C942D1D0982F50015B780 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		D54C942E1D0982F50015B780 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		D58C7D131D0A2C750032673C /* DGThumbUpButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DGThumbUpButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D54C93ED1D094C620015B780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58C7D101D0A2C750032673C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D54C93E71D094C620015B780 = {
+			isa = PBXGroup;
+			children = (
+				D54C93F21D094C620015B780 /* DGThumbUpButton */,
+				D54C93F11D094C620015B780 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D54C93F11D094C620015B780 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D54C93F01D094C620015B780 /* DGThumbUpButton.app */,
+				D58C7D131D0A2C750032673C /* DGThumbUpButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D54C93F21D094C620015B780 /* DGThumbUpButton */ = {
+			isa = PBXGroup;
+			children = (
+				D54C94131D0982EA0015B780 /* helper */,
+				D54C940C1D094CB90015B780 /* DGThumbUpButton */,
+				D54C940B1D094C920015B780 /* ViewController */,
+				D54C93FF1D094C620015B780 /* Assets.xcassets */,
+				D54C94011D094C620015B780 /* LaunchScreen.storyboard */,
+				D54C94041D094C620015B780 /* Info.plist */,
+				D54C93F31D094C620015B780 /* Supporting Files */,
+			);
+			path = DGThumbUpButton;
+			sourceTree = "<group>";
+		};
+		D54C93F31D094C620015B780 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D54C93F41D094C620015B780 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D54C940B1D094C920015B780 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D54C93F61D094C620015B780 /* AppDelegate.h */,
+				D54C93F71D094C620015B780 /* AppDelegate.m */,
+				D54C93F91D094C620015B780 /* ViewController.h */,
+				D54C93FA1D094C620015B780 /* ViewController.m */,
+				D54C93FC1D094C620015B780 /* Main.storyboard */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		D54C940C1D094CB90015B780 /* DGThumbUpButton */ = {
+			isa = PBXGroup;
+			children = (
+				D54C940D1D094CE50015B780 /* DGThumbUpButton.h */,
+				D54C940E1D094CE50015B780 /* DGThumbUpButton.m */,
+				D54C94101D0973AA0015B780 /* DGExplodeAnimationView.h */,
+				D54C94111D0973AA0015B780 /* DGExplodeAnimationView.m */,
+			);
+			name = DGThumbUpButton;
+			sourceTree = "<group>";
+		};
+		D54C94131D0982EA0015B780 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				D54C94141D0982F50015B780 /* Masonry */,
+			);
+			name = helper;
+			sourceTree = "<group>";
+		};
+		D54C94141D0982F50015B780 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				D54C94151D0982F50015B780 /* Info.plist */,
+				D54C94161D0982F50015B780 /* MASCompositeConstraint.h */,
+				D54C94171D0982F50015B780 /* MASCompositeConstraint.m */,
+				D54C94181D0982F50015B780 /* MASConstraint+Private.h */,
+				D54C94191D0982F50015B780 /* MASConstraint.h */,
+				D54C941A1D0982F50015B780 /* MASConstraint.m */,
+				D54C941B1D0982F50015B780 /* MASConstraintMaker.h */,
+				D54C941C1D0982F50015B780 /* MASConstraintMaker.m */,
+				D54C941D1D0982F50015B780 /* MASLayoutConstraint.h */,
+				D54C941E1D0982F50015B780 /* MASLayoutConstraint.m */,
+				D54C941F1D0982F50015B780 /* Masonry.h */,
+				D54C94201D0982F50015B780 /* MASUtilities.h */,
+				D54C94211D0982F50015B780 /* MASViewAttribute.h */,
+				D54C94221D0982F50015B780 /* MASViewAttribute.m */,
+				D54C94231D0982F50015B780 /* MASViewConstraint.h */,
+				D54C94241D0982F50015B780 /* MASViewConstraint.m */,
+				D54C94251D0982F50015B780 /* NSArray+MASAdditions.h */,
+				D54C94261D0982F50015B780 /* NSArray+MASAdditions.m */,
+				D54C94271D0982F50015B780 /* NSArray+MASShorthandAdditions.h */,
+				D54C94281D0982F50015B780 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				D54C94291D0982F50015B780 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				D54C942A1D0982F50015B780 /* View+MASAdditions.h */,
+				D54C942B1D0982F50015B780 /* View+MASAdditions.m */,
+				D54C942C1D0982F50015B780 /* View+MASShorthandAdditions.h */,
+				D54C942D1D0982F50015B780 /* ViewController+MASAdditions.h */,
+				D54C942E1D0982F50015B780 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D54C93EF1D094C620015B780 /* DGThumbUpButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54C94071D094C620015B780 /* Build configuration list for PBXNativeTarget "DGThumbUpButton" */;
+			buildPhases = (
+				D54C93EC1D094C620015B780 /* Sources */,
+				D54C93ED1D094C620015B780 /* Frameworks */,
+				D54C93EE1D094C620015B780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DGThumbUpButton;
+			productName = DGThumbUpButton;
+			productReference = D54C93F01D094C620015B780 /* DGThumbUpButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D58C7D121D0A2C750032673C /* DGThumbUpButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58C7D1C1D0A2C750032673C /* Build configuration list for PBXNativeTarget "DGThumbUpButtonUITests" */;
+			buildPhases = (
+				D58C7D0F1D0A2C750032673C /* Sources */,
+				D58C7D101D0A2C750032673C /* Frameworks */,
+				D58C7D111D0A2C750032673C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D58C7D191D0A2C750032673C /* PBXTargetDependency */,
+			);
+			name = DGThumbUpButtonUITests;
+			productName = DGThumbUpButtonUITests;
+			productReference = D58C7D131D0A2C750032673C /* DGThumbUpButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D54C93E81D094C620015B780 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DG;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Desgard_Duan;
+				TargetAttributes = {
+					D54C93EF1D094C620015B780 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D58C7D121D0A2C750032673C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D54C93EF1D094C620015B780;
+					};
+				};
+			};
+			buildConfigurationList = D54C93EB1D094C620015B780 /* Build configuration list for PBXProject "DGThumbUpButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D54C93E71D094C620015B780;
+			productRefGroup = D54C93F11D094C620015B780 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D54C93EF1D094C620015B780 /* DGThumbUpButton */,
+				D58C7D121D0A2C750032673C /* DGThumbUpButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D54C93EE1D094C620015B780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54C942F1D0982F50015B780 /* Info.plist in Resources */,
+				D54C94031D094C620015B780 /* LaunchScreen.storyboard in Resources */,
+				D54C94001D094C620015B780 /* Assets.xcassets in Resources */,
+				D54C93FE1D094C620015B780 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58C7D111D0A2C750032673C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D54C93EC1D094C620015B780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54C94371D0982F50015B780 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				D54C94121D0973AA0015B780 /* DGExplodeAnimationView.m in Sources */,
+				D54C94351D0982F50015B780 /* MASViewConstraint.m in Sources */,
+				D54C940F1D094CE50015B780 /* DGThumbUpButton.m in Sources */,
+				D54C93FB1D094C620015B780 /* ViewController.m in Sources */,
+				D54C93F81D094C620015B780 /* AppDelegate.m in Sources */,
+				D54C94381D0982F50015B780 /* View+MASAdditions.m in Sources */,
+				D54C94301D0982F50015B780 /* MASCompositeConstraint.m in Sources */,
+				D54C94341D0982F50015B780 /* MASViewAttribute.m in Sources */,
+				D54C94321D0982F50015B780 /* MASConstraintMaker.m in Sources */,
+				D54C94361D0982F50015B780 /* NSArray+MASAdditions.m in Sources */,
+				D54C94391D0982F50015B780 /* ViewController+MASAdditions.m in Sources */,
+				D54C94311D0982F50015B780 /* MASConstraint.m in Sources */,
+				D54C94331D0982F50015B780 /* MASLayoutConstraint.m in Sources */,
+				D54C93F51D094C620015B780 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58C7D0F1D0A2C750032673C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D58C7D191D0A2C750032673C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D54C93EF1D094C620015B780 /* DGThumbUpButton */;
+			targetProxy = D58C7D181D0A2C750032673C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D54C93FC1D094C620015B780 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D54C93FD1D094C620015B780 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D54C94011D094C620015B780 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D54C94021D094C620015B780 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D54C94051D094C620015B780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D54C94061D094C620015B780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D54C94081D094C620015B780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DGThumbUpButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = desgard.express.DGThumbUpButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D54C94091D094C620015B780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DGThumbUpButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = desgard.express.DGThumbUpButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D58C7D1A1D0A2C750032673C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DGThumbUpButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = desgard.express.DGThumbUpButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DGThumbUpButton;
+			};
+			name = Debug;
+		};
+		D58C7D1B1D0A2C750032673C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DGThumbUpButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = desgard.express.DGThumbUpButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DGThumbUpButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D54C93EB1D094C620015B780 /* Build configuration list for PBXProject "DGThumbUpButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54C94051D094C620015B780 /* Debug */,
+				D54C94061D094C620015B780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D54C94071D094C620015B780 /* Build configuration list for PBXNativeTarget "DGThumbUpButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54C94081D094C620015B780 /* Debug */,
+				D54C94091D094C620015B780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58C7D1C1D0A2C750032673C /* Build configuration list for PBXNativeTarget "DGThumbUpButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58C7D1A1D0A2C750032673C /* Debug */,
+				D58C7D1B1D0A2C750032673C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D54C93E81D094C620015B780 /* Project object */;
+}
