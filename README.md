@@ -1,7 +1,9 @@
-DGThumbUpButton 
+DGThumbUpButton
+=============
 
-![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png)  ![Platforms](https://cocoapod-badges.herokuapp.com/p/MZTimerLabel/badge.png)
-
+[![Build Status](https://travis-ci.org/scalessec/Toast.svg?branch=3.0)]()
+[![CocoaPods Version](https://img.shields.io/cocoapods/v/Toast.svg)]()
+[![apm](https://img.shields.io/apm/l/vim-mode.svg?maxAge=2592000)]()
 =========
 
 带有粒子扩散效果的点赞按钮，模仿Facebook Paper中的Like Button.
