@@ -26,6 +26,9 @@
 		D54C94391D0982F50015B780 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D54C942E1D0982F50015B780 /* ViewController+MASAdditions.m */; };
 		D58C7D211D0A33F60032673C /* DGExplodeAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C7D1E1D0A33F60032673C /* DGExplodeAnimationView.m */; };
 		D58C7D221D0A33F60032673C /* DGThumbUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C7D201D0A33F60032673C /* DGThumbUpButton.m */; };
+		D58C7D251D0A38FD0032673C /* Like-Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D58C7D241D0A38FD0032673C /* Like-Blue.png */; };
+		D58C7D271D0A39030032673C /* Like-PlaceHold.png in Resources */ = {isa = PBXBuildFile; fileRef = D58C7D261D0A39030032673C /* Like-PlaceHold.png */; };
+		D58C7D291D0A39090032673C /* Like-Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = D58C7D281D0A39090032673C /* Like-Sparkle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,9 @@
 		D58C7D1E1D0A33F60032673C /* DGExplodeAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DGExplodeAnimationView.m; path = DGThumbUpButton/DGExplodeAnimationView.m; sourceTree = "<group>"; };
 		D58C7D1F1D0A33F60032673C /* DGThumbUpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DGThumbUpButton.h; path = DGThumbUpButton/DGThumbUpButton.h; sourceTree = "<group>"; };
 		D58C7D201D0A33F60032673C /* DGThumbUpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DGThumbUpButton.m; path = DGThumbUpButton/DGThumbUpButton.m; sourceTree = "<group>"; };
+		D58C7D241D0A38FD0032673C /* Like-Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Like-Blue.png"; path = "Assets.xcassets/Like-Blue.imageset/Like-Blue.png"; sourceTree = "<group>"; };
+		D58C7D261D0A39030032673C /* Like-PlaceHold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Like-PlaceHold.png"; path = "Assets.xcassets/Like-PlaceHold.imageset/Like-PlaceHold.png"; sourceTree = "<group>"; };
+		D58C7D281D0A39090032673C /* Like-Sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Like-Sparkle.png"; path = "Assets.xcassets/Like-Sparkle.imageset/Like-Sparkle.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,7 @@
 				D58C7D1E1D0A33F60032673C /* DGExplodeAnimationView.m */,
 				D58C7D1F1D0A33F60032673C /* DGThumbUpButton.h */,
 				D58C7D201D0A33F60032673C /* DGThumbUpButton.m */,
+				D58C7D231D0A38DC0032673C /* Assets */,
 			);
 			name = DGThumbUpButton;
 			sourceTree = "<group>";
@@ -201,6 +208,16 @@
 				D54C942E1D0982F50015B780 /* ViewController+MASAdditions.m */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		D58C7D231D0A38DC0032673C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D58C7D241D0A38FD0032673C /* Like-Blue.png */,
+				D58C7D261D0A39030032673C /* Like-PlaceHold.png */,
+				D58C7D281D0A39090032673C /* Like-Sparkle.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,9 +301,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D58C7D251D0A38FD0032673C /* Like-Blue.png in Resources */,
 				D54C942F1D0982F50015B780 /* Info.plist in Resources */,
 				D54C94031D094C620015B780 /* LaunchScreen.storyboard in Resources */,
+				D58C7D271D0A39030032673C /* Like-PlaceHold.png in Resources */,
 				D54C94001D094C620015B780 /* Assets.xcassets in Resources */,
+				D58C7D291D0A39090032673C /* Like-Sparkle.png in Resources */,
 				D54C93FE1D094C620015B780 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
