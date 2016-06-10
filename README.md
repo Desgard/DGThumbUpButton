@@ -4,7 +4,11 @@ DGThumbUpButton
 [![Build Status](https://travis-ci.org/scalessec/Toast.svg?branch=3.0)]()  [![CocoaPods Version](https://img.shields.io/cocoapods/v/Toast.svg)]()  [![apm](https://img.shields.io/apm/l/vim-mode.svg?maxAge=2592000)]()
 =========
 
-带有粒子扩散效果的点赞按钮，模仿Facebook Paper中的Like Button.
+## Description
+
+Drop-in button control with with particle effects similar to the Like button in Facebook Paper.
+
+带有粒子扩散效果的点赞按钮，模仿Facebook Paper中的Like Button。实现思路可以查看我的博文：[If you like me, Thumb Up!](http://desgard.com/2016/06/09/DGThumbUpButton/)。喜欢的话可以Star下✨。
 
 ## Screenshop
 
