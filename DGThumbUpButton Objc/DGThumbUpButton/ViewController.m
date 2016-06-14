@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "DGThumbUpButton.h"
-#import "Masonry.h"
+
 
 @interface ViewController ()
 
@@ -21,11 +21,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     DGThumbUpButton *thumbUpButton = [[DGThumbUpButton alloc] init];
+    thumbUpButton.center = self.view.center;
+    
     [self.view addSubview: thumbUpButton];
     
-    [thumbUpButton mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.center.equalTo(self.view);
-    }];
 }
 
 - (void) clickButtonPress {
