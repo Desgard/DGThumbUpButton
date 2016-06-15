@@ -10,7 +10,7 @@ Drop-in button control with with particle effects similar to the Like button in 
 
 带有粒子扩散效果的点赞按钮，模仿Facebook Paper中的Like Button。实现思路可以查看我的博文：[If you like me, Thumb Up!](http://desgard.com/2016/06/09/DGThumbUpButton/)。喜欢的话可以Star下✨。
 
-## Screenshop
+## Screenshot
 
 ![](Source/demo0.gif)
 
